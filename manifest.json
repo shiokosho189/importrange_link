@@ -1,0 +1,19 @@
+{
+  "name": "importrange_link",
+  "description": "スプシの関数importrangeで引っ張ってきているlinkをワンクリックで別タブ表示する",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["activeTab","contextMenus","scripting"],
+  "action": {
+    "default_icon": "pizaa.png"
+  },
+  "icons": {
+    "16": "pizaa.png",
+    "48": "pizaa.png",
+    "128": "pizaa.png"
+  },
+  "background": {
+    "service_worker": "importrange_link.js",
+    "type": "module"
+  }
+}
